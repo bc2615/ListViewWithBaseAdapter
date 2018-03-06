@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p2"
+
+    android:orientation="vertical"
+    tools:context="com.android.sample.listviewwithbaseadapter.page2class">
+
+
+    <Button
+        android:id="@+id/page2button"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="36dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:elevation="10dp"
+        android:text="Confirm"
+        android:textColor="@android:color/holo_orange_dark" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="26dip"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dip"
+            android:text="Help us know you better"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dip"
+            android:text="By learning about you, we can craft a route that specifically serves your visit during the tour!" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dip"
+            android:text="What program are you going to apply?" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@android:color/darker_gray"
+            android:entries="@array/major_array"
+            android:padding="10dip"
+            android:popupBackground="@android:color/background_light"
+            android:prompt="@string/major_prompt"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dip"
+            android:text="Are you looking for something specific in the tour?" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:entries="@array/interest_array"
+
+            android:padding="10dip"
+            android:prompt="@string/interest_prompt" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dip"
+
+            android:text="What's the duration of the tour?" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@android:color/darker_gray"
+            android:entries="@array/time_array"
+            android:padding="10dip"
+            android:prompt="@string/time_prompt" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dip"
+            android:text="" />
+
+    </LinearLayout>
+
+</RelativeLayout>

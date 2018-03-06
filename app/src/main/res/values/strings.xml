@@ -1,0 +1,52 @@
+<resources>
+    <!--<string name="app_name">ListViewWithBaseAdapter</string>-->
+    <string name="app_name">CampusGuide</string>
+    <string name="welcome">Welcome to CMU</string>
+    <string name="route">Your Route</string>
+    <string name="itenary">Itenary</string>
+    <string name="tepper">Welcome to Tepper</string>
+    <string name="landmarks">Landmarks in Tepper</string>
+
+    <string-array name="items_name">
+        <item>Carnegie Mellon</item>
+        <item>University of Pittsburgh</item>
+        <item>Cornell</item>
+        <item>MIT</item>
+        <item>STANFORD</item>
+
+    </string-array>
+
+    <string-array name="item_description">
+        <item>Take a tour at CMU</item>
+        <item>High performance computer gaming system.</item>
+        <item>PS4 console, the most immersive gaming experience ever.</item>
+        <item>Best games, multi-player and entertainment.</item>
+        <item>Optical head mounted display</item>
+
+    </string-array>
+
+    <string name="major_prompt">Major</string>
+    <string name="interest_prompt">Interests</string>
+    <string name="time_prompt">Time</string>
+
+    <string-array name="major_array">
+        <item>Computer Science</item>
+        <item>Business</item>
+        <item>Music</item>
+        <item>Robotics</item>
+    </string-array>
+
+    <string-array name="interest_array">
+        <item>history</item>
+        <item>establishment</item>
+        <item>fun</item>
+        <item>activity</item>
+    </string-array>
+
+    <string-array name="time_array">
+        <item>5 min</item>
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>1 hour</item>
+    </string-array>
+</resources>
